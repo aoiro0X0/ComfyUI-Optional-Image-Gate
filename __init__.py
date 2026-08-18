@@ -6,7 +6,7 @@ class OptionalImageGate:
         return {
             "required": {
                 "image": ("IMAGE",),
-                "enable": ("BOOLEAN", {"default": False}),
+                "enable": ("BOOLEAN", {"default": False, "forceInput": True}),
             }
         }
 

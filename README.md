@@ -28,6 +28,7 @@ Boolean condition -> enable
 images output -----> the optional images input of the generation node
 ```
 
+- `enable` is a connectable `BOOLEAN` socket, not a manual toggle widget.
 - `enable = true`: outputs the connected image.
 - `enable = false`: outputs an empty Python list (`[]`).
 
